@@ -45,10 +45,10 @@ var swiper = new Swiper(".hero-slider", {
   loop: true,
   speed: 3000,
   grabCursor: false,
-  // autoplay: {
-  //   delay: 5000,
-  //   disableOnInteraction: false,
-  // },
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
 });
 
 
