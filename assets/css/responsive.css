@@ -441,7 +441,8 @@
 	  margin-left: 0rem;
 	}
   
-	.search-contact :is(.header-btn, .menu-open-btn) {
+	.search-contact .header-btn, 
+	.search-contact .menu-open-btn {
 	  margin-left: 2rem;
 	}
   
