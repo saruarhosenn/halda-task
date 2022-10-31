@@ -1,0 +1,14 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37 41" width="37" height="41">
+	<title>Home 4</title>
+	<defs>
+		<image  width="37" height="41" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAApCAMAAACFghBKAAAAAXNSR0IB2cksfwAAAOdQTFRF/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UDx3ibkQAAAE10Uk5TjuvtyCMA4//ZJE314C9M9OQwQek87DM+J93xSy34W/wgzWMYzBfAaA+/bBF4vn0OsogHrf6JCd/3AZz9maOYAwivCrGwciIc0dhAmtDWTh37AAABIUlEQVR4nIXU6VLCQBAE4BjTBolgQC4FQUHkEFGjoOAB3ge8//OIB1TSvcr8/mpqZ2umLWvFjtSqAy1rzaWKrRtU3GO2kVCF5CYzP6UKaZvZVkYVMllmdk4Vcv6Sbt8KCZnUzqtCYZvZTlEVStLNS6pCIcZst6wKjrBKWRX29oVVVaF28Fe3sEL9UFhDFZotZm5bFY6km9tRheaxsK4qnJwKO1OF4PyCWU8V+pesrlQNhtesbkQFt/KuuxGr8b0gS2Z8eDRMyCp4Mv0WKcNfdcDK8O9tsNKNcJ/BSrdr3imkDJvaAKuXf7Z+oV7fGIUuaK6cd0bha/xVeouRy/5RmhJeGqw0cajTlzKkVx6sPpYn4UzJ+mqqztQkG837qSY08AlU7DHW6T+KWwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id=" Countdown">
+		<g id="Title">
+			<use id="Layer 40" href="#img1" x="0" y="0"/>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,67 @@
+.ClassyCountdown-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.ClassyCountdown-wrapper > div {
+  margin-top: 3rem;
+  height: auto !important;
+  width: auto !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.ClassyCountdown-wrapper > div > div {
+  width: 12.3rem !important;
+  height: 12.3rem !important;
+  display: block !important;
+}
+
+.ClassyCountdown-wrapper > div > div canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.ClassyCountdown-value > div {
+  display: block;
+  font-family: var(--primary-font-600);
+  font-size: var(--size-9xl);
+  text-align: center;
+  margin-top: -8.8rem;
+  margin-bottom: 6rem;
+  line-height: 1;
+}
+
+.ClassyCountdown-value > span {
+  display: block;
+  font-family: var(--secondary-font-500);
+  font-size: var(--size-2xl);
+  color: var(--four-color);
+  text-align: center;
+  line-height: 1;
+}
+
+@media (max-width: 767px) {
+  .ClassyCountdown-wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .ClassyCountdown-value > div {
+    margin-top: -7.8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .ClassyCountdown-value > div {
+    margin-top: -7.5rem;
+  }
+}

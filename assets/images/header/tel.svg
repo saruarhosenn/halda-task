@@ -1,0 +1,25 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 26" width="32" height="26">
+	<title>Home 4</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-1640-29h1832c2.76 0 5 2.24 5 5v75c0 2.76-2.24 5-5 5h-1832c-2.76 0-5-2.24-5-5v-75c0-2.76 2.24-5 5-5z"/>
+		</clipPath>
+		<image  width="32" height="26" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAaCAMAAADhRa4NAAAAAXNSR0IB2cksfwAAAc5QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////YE3jhAAAAJp0Uk5TABlVgKrH3vD/36tSGB2C0PzVp4dtVlBKbtbOfBoQlPrtk0kJCkyW740MJNzpaO4cDskWG9PXheYRCGSdwdvh98akZRfrfeB7kvi6kXNqYFF1i7WVU5DKVOdwA/Zhb+jABC4LLfuuX6xAMwEo6pogS4z0Ddl2BSp0r3rxBkZ+3WtZijA4z5c3g+JpxK3YPQJjmDzRTk39pUHsnJvsfXoAAAHlSURBVHicY2CAAEYmZhZWNnYOIGDnZOVi5uZhQAK8fPwcAoJCwiKiYuLiYqISwkKSAhxS0jJQaVk5eQVFJWUGFKCiqqYur6EJYmpp6+iqMGABmhJ6kvoMDAachkbYpEHA2MRUhcHM3ALMsbSytrG1Y7eXZ2e3dXB0gtjo7OLK4OYOUe3h6eXt4+sn6u/nFxAY5BkMEeVjY+AIgTANvRk04bYzhIZBWOEcDBGRYFZUdAyDoDRE1F2SISY6CsyMjWOI50oAsZQ4EpMEmCAKmAQ0kznEQawElngGsRQOMEhlSBNwhihwFvBjSIeIpogBg1EpAwgys7JzcmFuyFVIzMoEiWboQ0XyMvILClmLYAqKHAo18jPy4OGhnAo0rLikFMgsk5AoA1Kl5cVAoQpY8FdWictWgxhZihxxcRyKWSB2tWxNVS1UQZ0GlFEv38DA0CBfD+U21kHoJo5mqEhLK4hsbYFy2zgywXR7RxZUxKUTRHa6QLlZHe1g2lQR5tqubhDZ3QXjh/aAyGyOXpiAKkegDGMghyqM38sB8pJrTh/cw/3ARMneD+f2RbiCXDaBAQGUJ05ETnsTJgGjlmMyA04whaOIIWlqDG4FaVOBaWSaQv30DKxgev2MaUBVKjOjOXCA6JlJDADSumRQHx3kswAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Slider">
+		<g id="1 copy">
+			<g id="Group 180">
+				<g clip-path="url(#cp1)">
+				</g>
+				<g id="Call Us:">
+					<g id="Group 179">
+						<use id="Vector Smart Object" href="#img1" x="0" y="0"/>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,1509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!---- Author Name ---->
+    <meta name="author" content="Your Name" />
+    <!---- Website Description ---->
+    <meta name="description" content="Website Description" />
+    <!---- Website keywords ---->
+    <meta name="keywords" content="Website keywords" />
+    <!------- Favicon ------->
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/images/favicon.svg"
+    />
+    <!---- Website Title ---->
+    <title>Halda</title>
+    <!-------- Fonts -------->
+    <link rel="stylesheet" href="assets/fonts/fonts.css" />
+    <!------- Css Here ------->
+    <link rel="stylesheet" href="assets/css/jquery.classycountdown.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!-------- PRELOADER -------->
+    <div class="loader">
+      <div class="cube-wrapper">
+        <div class="cube-folding">
+          <span class="leaf1"></span>
+          <span class="leaf2"></span>
+          <span class="leaf3"></span>
+          <span class="leaf4"></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+	  =====================================================
+	  Start Header Section 
+	  =====================================================
+	-->
+    <header class="header header-sticky">
+      <nav class="navBar">
+        <div class="d-flex justify-content-between align-items-center">
+          <!--======== Logo =========-->
+          <div class="logo d-flex align-items-center">
+            <a href="index.html">
+              <img src="assets/images/header/logo.png" alt="logo" class="" />
+            </a>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <!--=============== Main Menu ===============-->
+            <div
+              class="main-menu d-flex align-items-center justify-content-center flex-lg-column"
+            >
+              <!---- Menu Hide Button ---->
+              <img
+                src="assets/images/x-circle.svg"
+                class="menu-close-btn d-block d-lg-none"
+                alt="x-circle.svg"
+              />
+              <ul class="text-center text-lg-start">
+                <li class="menu-item d-lg-inline-block">
+                  <a
+                    class="menu-link primary-font-500 size-xl d-inline-block text-uppercase"
+                    href="#"
+                    >home</a
+                  >
+                </li>
+                <li class="menu-item d-lg-inline-block">
+                  <a
+                    class="menu-link primary-font-500 size-xl d-inline-block text-uppercase"
+                    href="#"
+                    >about us</a
+                  >
+                </li>
+                <li class="menu-item d-lg-inline-block">
+                  <a
+                    class="menu-link primary-font-500 size-xl d-inline-block text-uppercase"
+                    href="#"
+                    >tournament</a
+                  >
+                </li>
+                <li class="menu-item d-lg-inline-block">
+                  <a
+                    class="menu-link primary-font-500 size-xl d-inline-block text-uppercase"
+                    href="#"
+                    >blog</a
+                  >
+                </li>
+                <li class="menu-item d-lg-inline-block">
+                  <a
+                    class="menu-link primary-font-500 size-xl d-inline-block text-uppercase"
+                    href="#"
+                    >pages</a
+                  >
+                </li>
+                <li class="menu-item d-lg-inline-block">
+                  <a
+                    class="menu-link primary-font-500 size-xl d-inline-block text-uppercase"
+                    href="#"
+                    >contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--========== Search & Contact ==========-->
+            <div class="search-contact d-flex align-items-center">
+              <div class="header-search">
+                <a href="javascript:void(0)" class="header-search-icon">
+                  <img src="assets/images/header/search.svg" alt="search" />
+                </a>
+              </div>
+              <div class="header-btn d-none d-sm-block">
+                <a href="#">
+                  <img src="assets/images/header/grid.svg" alt="grid" />
+                </a>
+              </div>
+              <div
+                class="header-call d-xl-flex align-items-center third-bg d-none"
+              >
+                <a
+                  href="tel:+012 3456 789"
+                  class="header-call-link primary-bg d-flex align-items-center justify-content-center"
+                >
+                  <img src="assets/images/header/tel.svg" alt="tel" />
+                </a>
+                <p class="header-call-text">
+                  <span
+                    class="primary-font-400 size-lg secondary-color text-uppercase d-block"
+                  >
+                    call us:
+                  </span>
+                  <a
+                    href="tel:+012 3456 789"
+                    class="primary-font-600 size-xl primary-color text-uppercase d-block"
+                  >
+                    +012 3456 789
+                  </a>
+                </p>
+              </div>
+              <!--====== Mobile Menu Btn ======-->
+              <div class="menu-open-btn d-block d-lg-none">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Overlay Search Box -->
+      <div
+        class="search-overlay d-flex align-items-center justify-content-center"
+      >
+        <img
+          src="assets/images/x-circle.svg"
+          class="search-close-btn"
+          alt="x-circle"
+        />
+        <div class="search-overlay-content">
+          <h2
+            class="primary-font-700 size-8xl primary-color text-capitalize mb-5"
+          >
+            Search Here....
+          </h2>
+          <form action="#" class="d-flex align-items-center">
+            <input
+              type="text"
+              placeholder="Find Here Now"
+              name="search"
+              class="search-field"
+            />
+            <button
+              type="submit"
+              class="search-submit-btn primary-bg d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="assets/images/header/search.svg"
+                alt="search"
+                class="search-submit-btn-img"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- 
+	  =====================================================
+	  End Header Section 
+	  =====================================================
+	-->
+
+    <main>
+      <!-- 
+		  =====================================================
+		  Start Hero Section 
+		  =====================================================
+		-->
+      <section class="hero-section">
+        <div class="hero-wrapper">
+          <div class="hero-slider">
+            <div class="swiper-wrapper">
+              <!-------- Slider Item 1 -------->
+              <div
+                class="swiper-slide d-lg-flex justify-content-between align-items-center"
+              >
+                <!-- Hero Content -->
+                <div class="hero-content">
+                  <h1
+                    class="d-table third-font size-11xl primary-color text-uppercase position-relative"
+                  >
+                    ste<span class="secondary-color">a</span>m
+                    <div
+                      class="hero-content-top-text d-flex align-items-end justify-content-end"
+                    >
+                      <img src="assets/images/hero/pata.svg" alt="pata" />
+                      <p
+                        class="hero-content-sm-title primary-font-300 size-5xl primary-color text-uppercase"
+                      >
+                        the Season 8
+                      </p>
+                    </div>
+                  </h1>
+                  <div
+                    class="hero-btn d-flex align-items-center justify-content-center justify-content-lg-start"
+                  >
+                    <a
+                      href="#"
+                      class="hero-btn-link btn-clip-path t-ease-in-out primary-font-700 size-2xl primary-color text-uppercase primary-bg d-flex align-items-center justify-content-center"
+                    >
+                      <span>watch live</span>
+                      <img
+                        src="assets/images/hero/play-circle.svg"
+                        alt="play-circle"
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      class="hero-text-link primary-font-600 size-lg secondary-color text-uppercase"
+                      >dream making</a
+                    >
+                  </div>
+                </div>
+                <!-- Hero Image -->
+                <div class="hero-img text-center text-lg-end">
+                  <img
+                    src="assets/images/hero/hero-img.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+              <!-------- Slider Item 2 -------->
+              <div
+                class="swiper-slide d-lg-flex justify-content-between align-items-center"
+              >
+                <!-- Hero Content -->
+                <div class="hero-content">
+                  <h1
+                    class="d-table third-font size-11xl primary-color text-uppercase position-relative"
+                  >
+                    ste<span class="secondary-color">a</span>m
+                    <div
+                      class="hero-content-top-text d-flex align-items-end justify-content-end"
+                    >
+                      <img src="assets/images/hero/pata.svg" alt="pata" />
+                      <p
+                        class="hero-content-sm-title primary-font-300 size-5xl primary-color text-uppercase"
+                      >
+                        the Season 8
+                      </p>
+                    </div>
+                  </h1>
+                  <div
+                    class="hero-btn d-flex align-items-center justify-content-center"
+                  >
+                    <a
+                      href="#"
+                      class="hero-btn-link btn-clip-path t-ease-in-out primary-font-700 size-2xl primary-color text-uppercase primary-bg d-flex align-items-center justify-content-center"
+                    >
+                      <span>watch live</span>
+                      <img
+                        src="assets/images/hero/play-circle.svg"
+                        alt="play-circle"
+                      />
+                    </a>
+                    <a
+                      href="#"
+                      class="hero-text-link primary-font-600 size-lg secondary-color text-uppercase"
+                      >dream making</a
+                    >
+                  </div>
+                </div>
+                <!-- Hero Image -->
+                <div class="hero-img text-center text-lg-end">
+                  <img
+                    src="assets/images/hero/hero-img.png"
+                    alt=""
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Hero Bottom Line -->
+        <img
+          src="assets/images/hero/hero-bg-line.png"
+          alt="hero-bg-line"
+          class="hero-bg-line w-100"
+        />
+      </section>
+      <!-- 
+		  =====================================================
+		  End Hero Section 
+		  =====================================================
+		-->
+
+      <!-- 
+		  =====================================================
+		  Start Countdown Section 
+		  =====================================================
+		-->
+      <section class="countdown-section section-y-space">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="countdown-title text-center">
+            <div
+              class="countdown-sec-top-text d-md-flex align-items-center justify-content-center"
+            >
+              <h2
+                class="countdown-sec-title primary-font-700 size-9xl primary-color text-capitalize"
+              >
+                Time Until Pre-Sale
+              </h2>
+              <img
+                src="assets/images/countdown/greater-than.svg"
+                alt="greater-than"
+                class="d-none d-md-inline-block"
+              />
+            </div>
+            <p class="secondary-font-500 size-2xl four-color text-capitalize">
+              Upcoming Countdown
+            </p>
+          </div>
+          <!-- Countdown Container -->
+          <div class="countdown-container">
+            <!-- Countdown Item -->
+            <div id="countdown-gampang"></div>
+          </div>
+          <div class="countdown-bottom-img text-center">
+            <img
+              src="assets/images/countdown/countdown-img.png"
+              alt="countdown img"
+              class="img-fluid"
+            />
+            <p class="secondary-font-400 size-md primary-color text-uppercase">
+              COLLECTIONS love to online gaming platform
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- 
+		  =====================================================
+		  End Countdown Section 
+		  =====================================================
+		-->
+
+      <!-- 
+		  =====================================================
+		  Start Team Section 
+		  =====================================================
+		-->
+      <section class="team-section section-y-space">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="team-title text-center">
+            <h2
+              class="team-sec-title primary-font-700 size-9xl primary-color text-uppercase"
+            >
+              Active Team Members
+            </h2>
+            <div class="title-underline"></div>
+          </div>
+
+          <!-- Team Row -->
+          <div class="row g-4 team-row">
+            <div class="col-lg-3 col-sm-6">
+              <div class="team">
+                <img
+                  src="assets/images/team/team-member1.jpg"
+                  alt="team-member"
+                  class="w-100"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="team">
+                <img
+                  src="assets/images/team/team-member2.jpg"
+                  alt="team-member"
+                  class="w-100"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="team">
+                <img
+                  src="assets/images/team/team-member3.jpg"
+                  alt="team-member"
+                  class="w-100"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="team">
+                <img
+                  src="assets/images/team/team-member4.jpg"
+                  alt="team-member"
+                  class="w-100"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Counter Row -->
+          <div class="row justify-content-center counter-row">
+            <div class="counter-box text-center">
+              <span
+                class="counter counter-mb primary-font-400 size-8xl primary-color"
+                >7878</span
+              >
+              <p
+                class="counter-title primary-font-500 size-5xl primary-color text-capitalize"
+              >
+                Unique Design
+              </p>
+            </div>
+            <div class="counter-box text-center">
+              <p class="counter-mb primary-font-400 size-8xl primary-color">
+                <span class="counter">15</span><span class="">+</span>
+              </p>
+              <p
+                class="counter-title primary-font-500 size-5xl primary-color text-capitalize"
+              >
+                Years Of Experience
+              </p>
+            </div>
+            <div class="counter-box text-center">
+              <p class="primary-font-400 size-8xl primary-color">
+                <span class="counter">0.45</span>
+                <span class="text-uppercase">euro</span>
+              </p>
+              <p
+                class="counter-btn mx-auto d-flex align-items-center justify-content-center rounded-pill secondary-font-600 size-md primary-color primary-bg text-capitalize"
+              >
+                last year
+              </p>
+              <p
+                class="counter-title primary-font-500 size-5xl primary-color text-capitalize"
+              >
+                Unique Design
+              </p>
+            </div>
+            <div class="counter-box text-center">
+              <p class="primary-font-400 size-8xl primary-color">
+                <span class="counter">0.55</span>
+                <span class="text-uppercase">euro</span>
+              </p>
+              <p
+                class="counter-btn mx-auto d-flex align-items-center justify-content-center rounded-pill secondary-font-600 size-md primary-color primary-bg"
+              >
+                30th Dec
+              </p>
+              <p
+                class="counter-title primary-font-500 size-5xl primary-color text-capitalize"
+              >
+                Unique Design
+              </p>
+            </div>
+            <div class="counter-box text-center">
+              <p
+                class="counter-text-title primary-font-500 size-5xl primary-color"
+              >
+                Creative and online game Pictionary or office Halda
+              </p>
+              <span class="counter-copy primary-color">&copy;</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 
+		  =====================================================
+		  End Team Section 
+		  =====================================================
+		-->
+
+      <!-- 
+		  =====================================================
+		  Start Darkne Section 
+		  =====================================================
+		-->
+      <section class="darkne-section section-y-space">
+        <div class="darkne-wrapper">
+          <div class="darkne-slider-wrap">
+            <!-- Slider 1 -->
+            <div class="darkne-slider">
+              <div class="darkne-slider-flex d-flex align-items-center">
+                <div class="darkne-slider-text text-center">
+                  <p class="primary-font-300 primary-color text-uppercase">
+                    the Season 8
+                  </p>
+                  <h3 class="third-font primary-color text-uppercase">
+                    dark<span class="secondary-color">ne</span>
+                  </h3>
+                </div>
+                <div class="darkne-slider-fade">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-2"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-3"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                  </div>
+                </div>
+                <!-- Arrows & Content -->
+                <div
+                  class="swiper-btn d-flex align-items-center justify-content-center"
+                >
+                  <div class="">
+                    <div class="swiper-btn-text">
+                      <p
+                        class="primary-font-400 size-4xl primary-color d-flex align-items-center"
+                      >
+                        <span class="circle primary-bg rounded-circle"></span>
+                        <span>02</span>
+                      </p>
+                      <p
+                        class="primary-font-400 size-4xl primary-color text-uppercase"
+                      >
+                        pubg mobile 2022
+                      </p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <div class="swiper-next">
+                        <img src="assets/images/darkne/arrow-left.svg" alt="" />
+                      </div>
+                      <div class="swiper-prev">
+                        <img
+                          src="assets/images/darkne/arrow-right.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider 2 -->
+            <div class="darkne-slider">
+              <div class="darkne-slider-flex d-flex align-items-center">
+                <div class="darkne-slider-text text-center">
+                  <p class="primary-font-300 primary-color text-uppercase">
+                    the Season 8
+                  </p>
+                  <h3 class="third-font primary-color text-uppercase">
+                    dark<span class="secondary-color">ne</span>
+                  </h3>
+                </div>
+                <div class="darkne-slider-fade">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-2"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-3"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                  </div>
+                </div>
+                <!-- Arrows & Content -->
+                <div
+                  class="swiper-btn d-flex align-items-center justify-content-center"
+                >
+                  <div class="">
+                    <div class="swiper-btn-text">
+                      <p
+                        class="primary-font-400 size-4xl primary-color d-flex align-items-center"
+                      >
+                        <span class="circle primary-bg rounded-circle"></span>
+                        <span>02</span>
+                      </p>
+                      <p
+                        class="primary-font-400 size-4xl primary-color text-uppercase"
+                      >
+                        pubg mobile 2022
+                      </p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <div class="swiper-next">
+                        <img src="assets/images/darkne/arrow-left.svg" alt="" />
+                      </div>
+                      <div class="swiper-prev">
+                        <img
+                          src="assets/images/darkne/arrow-right.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider 3 -->
+            <div class="darkne-slider">
+              <div class="darkne-slider-flex d-flex align-items-center">
+                <div class="darkne-slider-text text-center">
+                  <p class="primary-font-300 primary-color text-uppercase">
+                    the Season 8
+                  </p>
+                  <h3 class="third-font primary-color text-uppercase">
+                    dark<span class="secondary-color">ne</span>
+                  </h3>
+                </div>
+                <div class="darkne-slider-fade">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-2"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-3"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                  </div>
+                </div>
+                <!-- Arrows & Content -->
+                <div
+                  class="swiper-btn d-flex align-items-center justify-content-center"
+                >
+                  <div class="">
+                    <div class="swiper-btn-text">
+                      <p
+                        class="primary-font-400 size-4xl primary-color d-flex align-items-center"
+                      >
+                        <span class="circle primary-bg rounded-circle"></span>
+                        <span>02</span>
+                      </p>
+                      <p
+                        class="primary-font-400 size-4xl primary-color text-uppercase"
+                      >
+                        pubg mobile 2022
+                      </p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <div class="swiper-next">
+                        <img src="assets/images/darkne/arrow-left.svg" alt="" />
+                      </div>
+                      <div class="swiper-prev">
+                        <img
+                          src="assets/images/darkne/arrow-right.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Slider 4 -->
+            <div class="darkne-slider">
+              <div class="darkne-slider-flex d-flex align-items-center">
+                <div class="darkne-slider-text text-center">
+                  <p class="primary-font-300 primary-color text-uppercase">
+                    the Season 8
+                  </p>
+                  <h3 class="third-font primary-color text-uppercase">
+                    dark<span class="secondary-color">ne</span>
+                  </h3>
+                </div>
+                <div class="darkne-slider-fade">
+                  <div class="swiper-wrapper">
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-2"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-3"
+                    ></div>
+                    <div
+                      class="swiper-slide darkne-slider-img darkne-slider-img-1"
+                    ></div>
+                  </div>
+                </div>
+                <!-- Arrows & Content -->
+                <div
+                  class="swiper-btn d-flex align-items-center justify-content-center"
+                >
+                  <div class="">
+                    <div class="swiper-btn-text">
+                      <p
+                        class="primary-font-400 size-4xl primary-color d-flex align-items-center"
+                      >
+                        <span class="circle primary-bg rounded-circle"></span>
+                        <span>02</span>
+                      </p>
+                      <p
+                        class="primary-font-400 size-4xl primary-color text-uppercase"
+                      >
+                        pubg mobile 2022
+                      </p>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-center"
+                    >
+                      <div class="swiper-next">
+                        <img src="assets/images/darkne/arrow-left.svg" alt="" />
+                      </div>
+                      <div class="swiper-prev">
+                        <img
+                          src="assets/images/darkne/arrow-right.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 
+		  =====================================================
+		  End Darkne Section 
+		  =====================================================
+		-->
+
+      <!-- 
+		  =====================================================
+		  Start Want Section 
+		  =====================================================
+		-->
+      <section class="want-section section-y-space">
+        <div class="want-wrapper">
+          <div class="row g-5">
+            <div class="col-lg-6 order-1 order-lg-0">
+              <div class="want-top-left-img w-t-l-i-1 h-100">
+                <img
+                  src="assets/images/want/want-lg.jpg"
+                  alt="want-lg"
+                  class="w-100 h-100"
+                />
+              </div>
+            </div>
+            <div class="col-lg-4 order-0 order-lg-1">
+              <div class="want-top-left-img w-t-l-i-2 h-100 position-relative">
+                <img
+                  src="assets/images/want/halda-img.png"
+                  alt="halda-img"
+                  class="w-100 h-100"
+                />
+                <div class="halda-box">
+                  <div
+                    class="halda-box-logo mx-auto rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="assets/images/want/halda-shape.png"
+                      alt="halda-shape"
+                      class="img-fluid"
+                    />
+                  </div>
+                  <div class="halda-box-text text-center">
+                    <p
+                      class="primary-font-300 size-3xl secondary-color text-uppercase"
+                    >
+                      halda
+                    </p>
+                    <p
+                      class="primary-font-400 size-8xl primary-color text-uppercase"
+                    >
+                      gaming
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="want-center-text">
+            <div
+              class="want-center-text-title padding-l-90 text-center text-lg-start"
+            >
+              <p
+                class="primary-font-400 size-11xl primary-color text-uppercase"
+              >
+                WHO
+              </p>
+              <p
+                class="primary-font-400 size-11xl primary-color text-uppercase"
+              >
+                WE WANT
+              </p>
+            </div>
+            <div class="want-center-list-wrap mx-auto">
+              <ul class="want-center-list">
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p
+                      class="w-c-t-box-title w-c-t-box-title-1 d-inline-block position-relative primary-font-600 primary-color"
+                    >
+                      Game in portfolio
+                      <span class="primary-font-300 third-color"
+                        >to show off Game in portfolio to
+                        <a href="#" class="show-off-un third-color"
+                          >show off</a
+                        ></span
+                      >
+                    </p>
+                  </div>
+                </li>
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p class="w-c-t-box-title primary-font-600 primary-color">
+                      Enjoy
+                      <span class="primary-font-300 third-color"
+                        >our safe games for free!</span
+                      >
+                    </p>
+                  </div>
+                </li>
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p class="w-c-t-box-title primary-font-600 primary-color">
+                      Online games
+                      <span class="primary-font-300 third-color"
+                        >at gjals mrkrs. the Safe place to play games online
+                        just as you want</span
+                      >
+                    </p>
+                  </div>
+                </li>
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p class="w-c-t-box-title primary-font-300 third-color">
+                      Play thousands of
+                      <span class="primary-font-600 primary-color"
+                        >Free Online HTML5</span
+                      >
+                      Games including Puzzle, Shooting, Adventure and more
+                    </p>
+                  </div>
+                </li>
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p class="w-c-t-box-title primary-font-300 third-color">
+                      Agame.com has
+                      <span class="primary-font-600 primary-color"
+                        >thousands of free</span
+                      >
+                      online games for both young and old
+                    </p>
+                  </div>
+                </li>
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p
+                      class="w-c-t-box-title w-c-t-box-title-6 d-inline-block position-relative primary-font-300 third-color"
+                    >
+                      Game in portfolio to show off Game in
+                      <span class="primary-font-600 primary-color"
+                        >portfolio to
+                        <a href="#" class="show-off-un primary-color"
+                          >show of</a
+                        ></span
+                      >
+                    </p>
+                  </div>
+                </li>
+                <li class="want-center-list-item d-flex align-items-center">
+                  <img src="assets/images/want/list-bg.png" alt="list-bg" />
+                  <div class="w-c-t-box">
+                    <p class="w-c-t-box-title primary-font-600 primary-color">
+                      Game in portfolio
+                      <span class="primary-font-300 third-color"
+                        >to show off Game</span
+                      >
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="padding-l-90 want-bottom-wrap">
+            <div class="row g-4">
+              <div class="col-md-5 col-12">
+                <div class="want-bottom-text mb-5 mb-md-0">
+                  <p
+                    class="want-bottom-text-title primary-font-600 primary-color"
+                  >
+                    Online games
+                    <span class="primary-font-300 third-color d-inline"
+                      >at During The Lockdown. Safe place <br />
+                      to play games online just as you want <br />
+                      <span class="w-b-t-un d-inline"
+                        >During The Lockdown</span
+                      ></span
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4 col-6 want-bottom-img-col">
+                <div class="want-bottom-img h-100">
+                  <img
+                    src="assets/images/want/want-md1.jpg"
+                    alt="want-md1"
+                    class="h-100 w-100"
+                  />
+                </div>
+              </div>
+              <div class="col-md-3 col-6 want-bottom-img-col">
+                <div class="want-bottom-img h-100">
+                  <img
+                    src="assets/images/want/want-md2.jpg"
+                    alt="want-md2"
+                    class="h-100 w-100"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 
+		  =====================================================
+		  End Want Section 
+		  =====================================================
+		-->
+
+      <!-- 
+		  =====================================================
+		  Start Video Section 
+		  =====================================================
+		-->
+      <section class="video-section position-relative">
+        <img
+          src="assets/images/video/video-bg.jpg"
+          alt="video bg"
+          class="video-img w-100"
+        />
+        <a
+          href="https://www.youtube.com/watch?v=W-E5MRrVSJU"
+          class="video-play-btn rounded-circle d-flex align-items-center justify-content-center"
+          target="_blank"
+        >
+          <img src="assets/images/video/play-fill.svg" alt="play-fill" />
+        </a>
+      </section>
+      <!-- 
+		  =====================================================
+		  End Video Section 
+		  =====================================================
+		-->
+
+      <!-- 
+		  =====================================================
+		  Start Gears Section 
+		  =====================================================
+		-->
+      <section class="gears-section secondary-bg section-y-space">
+        <div class="container">
+          <!-- Section Title -->
+          <div class="gears-title text-center">
+            <h2
+              class="gears-sec-title primary-font-700 size-8xl primary-color text-uppercase"
+            >
+              check our gears
+            </h2>
+            <div class="title-underline gears-title-underline"></div>
+          </div>
+
+          <!-- Gears Item Row -->
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="gears-box">
+                <div class="gears-img position-relative">
+                  <img
+                    src="assets/images/gears/shape.png"
+                    alt="shape"
+                    class="w-100"
+                  />
+                  <img
+                    src="assets/images/gears/headphones.png"
+                    alt="headphones"
+                    class="gears-product img-fluid"
+                  />
+                  <p class="gears-time d-flex align-items-center">
+                    <img
+                      src="assets/images/gears/clock-regular.svg"
+                      alt="clock"
+                    />
+                    <span
+                      class="primary-font-500 size-lg secondary-color text-uppercase"
+                      >in 4 days</span
+                    >
+                  </p>
+                  <a
+                    href="#"
+                    class="gears-share rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/images/gears/share-fill.svg" alt="share" />
+                  </a>
+                </div>
+                <div class="gears-product-text d-flex justify-content-between">
+                  <div class="">
+                    <h5
+                      class="gears-product-name primary-font-700 size-4xl primary-color text-uppercase"
+                    >
+                      headphones
+                    </h5>
+                    <p
+                      class="secondary-font-400 size-xl third-color text-uppercase"
+                    >
+                      ESPORTS
+                    </p>
+                  </div>
+                  <h5
+                    class="primary-font-700 size-4xl secondary-color text-uppercase"
+                  >
+                    $18
+                  </h5>
+                </div>
+                <div
+                  class="gears-btn d-flex justify-content-between align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="gears-add-cart-btn btn-clip-path t-ease-in-out primary-font-600 size-3xl primary-color text-uppercase primary-bg d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/images/gears/plus.svg" alt="plus" />
+                    <span>add to cart</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="gears-wishlist-btn t-ease-in-out d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/gears/heart.svg"
+                      alt="heart"
+                      class="gears-wishlist-btn-img"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="gears-box">
+                <div class="gears-img position-relative">
+                  <img
+                    src="assets/images/gears/shape.png"
+                    alt="shape"
+                    class="w-100"
+                  />
+                  <img
+                    src="assets/images/gears/controller.png"
+                    alt="controller"
+                    class="gears-product img-fluid"
+                  />
+                  <p class="gears-time d-flex align-items-center">
+                    <img
+                      src="assets/images/gears/clock-regular.svg"
+                      alt="clock"
+                    />
+                    <span
+                      class="primary-font-500 size-lg secondary-color text-uppercase"
+                      >in 4 days</span
+                    >
+                  </p>
+                  <a
+                    href="#"
+                    class="gears-share rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/images/gears/share-fill.svg" alt="share" />
+                  </a>
+                </div>
+                <div class="gears-product-text d-flex justify-content-between">
+                  <div class="">
+                    <h5
+                      class="gears-product-name primary-font-700 size-4xl primary-color text-uppercase"
+                    >
+                      controller
+                    </h5>
+                    <p
+                      class="secondary-font-400 size-xl third-color text-uppercase"
+                    >
+                      ESPORTS
+                    </p>
+                  </div>
+                  <h5
+                    class="primary-font-700 size-4xl secondary-color text-uppercase"
+                  >
+                    $29
+                  </h5>
+                </div>
+                <div
+                  class="gears-btn d-flex justify-content-between align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="gears-add-cart-btn btn-clip-path t-ease-in-out primary-font-600 size-3xl primary-color text-uppercase primary-bg d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/images/gears/plus.svg" alt="plus" />
+                    <span>add to cart</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="gears-wishlist-btn t-ease-in-out d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/gears/heart.svg"
+                      alt="heart"
+                      class="gears-wishlist-btn-img"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mx-auto">
+              <div class="gears-box">
+                <div class="gears-img position-relative">
+                  <img
+                    src="assets/images/gears/shape.png"
+                    alt="shape"
+                    class="w-100"
+                  />
+                  <img
+                    src="assets/images/gears/gaming-mask.png"
+                    alt="gaming-mask"
+                    class="gears-product img-fluid"
+                  />
+                  <p class="gears-time d-flex align-items-center">
+                    <img
+                      src="assets/images/gears/clock-regular.svg"
+                      alt="clock"
+                    />
+                    <span
+                      class="primary-font-500 size-lg secondary-color text-uppercase"
+                      >in 4 days</span
+                    >
+                  </p>
+                  <a
+                    href="#"
+                    class="gears-share rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/images/gears/share-fill.svg" alt="share" />
+                  </a>
+                </div>
+                <div class="gears-product-text d-flex justify-content-between">
+                  <div class="">
+                    <h5
+                      class="gears-product-name primary-font-700 size-4xl primary-color text-uppercase"
+                    >
+                      gaming mask
+                    </h5>
+                    <p
+                      class="secondary-font-400 size-xl third-color text-uppercase"
+                    >
+                      ESPORTS
+                    </p>
+                  </div>
+                  <h5
+                    class="primary-font-700 size-4xl secondary-color text-uppercase"
+                  >
+                    $45
+                  </h5>
+                </div>
+                <div
+                  class="gears-btn d-flex justify-content-between align-items-center"
+                >
+                  <a
+                    href="#"
+                    class="gears-add-cart-btn btn-clip-path t-ease-in-out primary-font-600 size-3xl primary-color text-uppercase primary-bg d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/images/gears/plus.svg" alt="plus" />
+                    <span>add to cart</span>
+                  </a>
+                  <a
+                    href="#"
+                    class="gears-wishlist-btn t-ease-in-out d-flex justify-content-center align-items-center"
+                  >
+                    <img
+                      src="assets/images/gears/heart.svg"
+                      alt="heart"
+                      class="gears-wishlist-btn-img"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 
+		  =====================================================
+		  End Gears Section 
+		  =====================================================
+		-->
+    </main>
+
+    <!-- 
+	  =====================================================
+	  Start Footer Section 
+	  =====================================================
+	-->
+    <footer class="footer">
+      <!-- Footer Top Content -->
+      <div class="footer-top">
+        <div class="container">
+          <!-- Row One -->
+          <div class="row footer-logo-nav-row align-items-center">
+            <div class="col-lg-2">
+              <!-- Footer Logo -->
+              <div class="footer-logo text-center text-lg-start mb-5 mb-lg-0">
+                <a href="index.html">
+                  <img src="assets/images/header/logo.png" alt="logo" />
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-10">
+              <nav
+                class="footer-menu-wrap d-md-flex align-items-center justify-content-end"
+              >
+                <!-- Footer Menu -->
+                <ul
+                  class="footer-menu d-flex align-items-center justify-content-center justify-content-md-start flex-wrap mb-5 mb-md-0"
+                >
+                  <li class="footer-menu-item">
+                    <a
+                      class="footer-menu-link primary-font-500 size-xl text-uppercase"
+                      href="#"
+                      >home</a
+                    >
+                  </li>
+                  <li class="footer-menu-item">
+                    <a
+                      class="footer-menu-link primary-font-500 size-xl text-uppercase"
+                      href="#"
+                      >about us</a
+                    >
+                  </li>
+                  <li class="footer-menu-item">
+                    <a
+                      class="footer-menu-link primary-font-500 size-xl text-uppercase"
+                      href="#"
+                      >tournament</a
+                    >
+                  </li>
+                  <li class="footer-menu-item">
+                    <a
+                      class="footer-menu-link primary-font-500 size-xl text-uppercase"
+                      href="#"
+                      >blog</a
+                    >
+                  </li>
+                  <li class="footer-menu-item">
+                    <a
+                      class="footer-menu-link primary-font-500 size-xl text-uppercase"
+                      href="#"
+                      >pages</a
+                    >
+                  </li>
+                  <li class="footer-menu-item">
+                    <a
+                      class="footer-menu-link primary-font-500 size-xl text-uppercase"
+                      href="#"
+                      >contact</a
+                    >
+                  </li>
+                </ul>
+                <!-- Footer Search Box -->
+                <form
+                  action="#"
+                  class="footer-search d-flex align-items-center"
+                >
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Find Here Now"
+                    class="footer-search-input"
+                  />
+                  <button
+                    type="submit"
+                    class="footer-search-submit primary-bg d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="assets/images/footer/footer-search.svg"
+                      alt="search"
+                      class="footer-search-submit-img"
+                    />
+                  </button>
+                </form>
+              </nav>
+            </div>
+          </div>
+          <!-- Footer Center Line -->
+          <img
+            src="assets/images/footer/footer-center-line.png"
+            alt="footer-center-line"
+            class="footer-center-line w-100"
+          />
+          <!-- Row Tow -->
+          <div class="row footer-social-row align-items-center">
+            <!-- Help Page -->
+            <div class="col-md-7">
+              <ul
+                class="help-page-list d-flex align-items-center justify-content-center justify-content-md-start mb-4 mb-md-0 flex-wrap"
+              >
+                <li class="help-page-item">
+                  <a
+                    href="#"
+                    class="help-page-link primary-font-500 text-uppercase"
+                    >FAQ</a
+                  >
+                </li>
+                <li class="help-page-item">
+                  <a
+                    href="#"
+                    class="help-page-link primary-font-500 text-uppercase"
+                    >Help Center</a
+                  >
+                </li>
+                <li class="help-page-item">
+                  <a
+                    href="#"
+                    class="help-page-link primary-font-500 text-uppercase"
+                    >Terms of Use</a
+                  >
+                </li>
+                <li class="help-page-item">
+                  <a
+                    href="#"
+                    class="help-page-link primary-font-500 text-uppercase"
+                    >Privacy</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- Social Link -->
+            <div class="col-md-5">
+              <ul
+                class="footer-social d-flex align-items-center justify-content-center justify-content-md-end"
+              >
+                <li class="footer-social-item">
+                  <a
+                    href="#"
+                    class="footer-social-link rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="assets/images/footer/facebook-f.svg"
+                      alt="facebook"
+                      class="footer-social-link-img"
+                    />
+                  </a>
+                </li>
+                <li class="footer-social-item">
+                  <a
+                    href="#"
+                    class="footer-social-link rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="assets/images/footer/twitter.svg"
+                      alt="twitter"
+                      class="footer-social-link-img"
+                    />
+                  </a>
+                </li>
+                <li class="footer-social-item">
+                  <a
+                    href="#"
+                    class="footer-social-link rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="assets/images/footer/youtube.svg"
+                      alt="youtube"
+                      class="footer-social-link-img"
+                    />
+                  </a>
+                </li>
+                <li class="footer-social-item">
+                  <a
+                    href="#"
+                    class="footer-social-link rounded-circle d-flex align-items-center justify-content-center"
+                  >
+                    <img
+                      src="assets/images/footer/google.svg"
+                      alt="google"
+                      class="footer-social-link-img"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom Content -->
+      <div class="footer-bottom secondary-bg">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="copyright-text mb-5 mb-md-0">
+                <p class="primary-font-500 size-lg text-center text-md-start">
+                  Copyright © 2021.All Rights Reserved By
+                  <span class="secondary-color">halda</span>
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="payment-img text-center text-md-end">
+                <img
+                  src="assets/images/footer/payment.png"
+                  alt="payment"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- 
+	  =====================================================
+	  End Footer Section                                     
+	  =====================================================
+	-->
+
+    <!-- 
+	  ----------------------------------------------
+	  Back To Top Btn
+	  ----------------------------------------------
+	-->
+    <button
+      type="button"
+      id="scroll-up-btn"
+      title="Go to top"
+      class="d-flex align-items-center justify-content-center rounded"
+    >
+      <img src="assets/images/arrow-up.svg" alt="arrow-up" />
+    </button>
+    <!-- 
+	  ----------------------------------------------
+	  Back To Top Btn
+	  ----------------------------------------------
+	-->
+
+    <!--------- JS Here --------->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.ba-throttle-debounce.min.js"></script>
+    <script src="assets/js/jquery.knob.min.js"></script>
+    <script src="assets/js/jquery-countdowngampang.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 9" width="30" height="9">
+	<title>Home 4</title>
+	<defs>
+		<image  width="30" height="9" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAJCAMAAAASPWyzAAAAAXNSR0IB2cksfwAAAI1QTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////v6aiKwAAAC90Uk5TAAJg1kZLzu6AEDi67IoTKZ/5w0IPFhsc2v/U2+jpwTOr/sIkHUO+5n4MWNlzB27MEjHpAAAAWklEQVR4nGNgAAFGJmYWBpyAlY2dgxOXJBc3Dy8fLkl+AUEhYRFRMWxAnI9BQlJSSlpGFjuQY5BXUFRiEVfmxwpUgMarqqlraOJ2NwODlrasDj4FunrS2P0NADWsCmGFtzuSAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Group 187">
+		<g id="Group 191">
+			<g id="Group 189">
+				<use id="Layer 54 copy" href="#img1" x="0" y="0"/>
+			</g>
+		</g>
+	</g>
+</svg>

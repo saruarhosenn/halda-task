@@ -1,0 +1,845 @@
+@media (max-width: 1882px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-10xl: 7rem;
+	}
+  }
+  
+  @media (max-width: 1799px) {
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-center-text-title {
+	  margin-top: -6.5rem;
+	}
+  }
+  
+  @media (max-width: 1786px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-10xl: 6.5rem;
+	  --size-6xl: 1.8rem;
+	}
+  
+	/* 
+	  -----------------------------------
+	  Darkme Section Responsive
+	  -----------------------------------
+	  */
+	.darkne-slider-text p {
+	  letter-spacing: 1.6rem;
+	}
+  }
+  
+  @media (max-width: 1733px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-11xl: 13rem;
+	  --size-10xl: 5rem;
+	  --size-6xl: 1.8rem;
+	}
+  }
+  
+  @media (max-width: 1641px) {
+	/* 
+	-----------------------------------
+	Darkme Section Responsive
+	-----------------------------------
+	*/
+	.swiper-btn {
+	  max-width: 30rem;
+	}
+  }
+  
+  @media (max-width: 1599px) {
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.halda-box .halda-box-logo {
+	  width: 16rem;
+	  height: 16rem;
+	  margin-bottom: 3rem;
+	}
+  
+	.halda-box .halda-box-logo img {
+	  width: 10rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Gears Section Responsive
+	  ----------------------------------
+	  */
+	.gears-img .gears-product {
+	  width: 14rem;
+	}
+  }
+  
+  @media (max-width: 1551px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-11xl: 11rem;
+	}
+	/* 
+	-----------------------------------
+	Darkne Section Responsive
+	-----------------------------------
+	*/
+	.swiper-btn {
+	  max-width: 25rem;
+	}
+  }
+  
+  @media (max-width: 1461px) {
+	/*_____ Font Size _____*/
+	:root {
+	  --size-10xl: 4rem;
+	  --size-6xl: 1.5rem;
+	}
+  
+	/* 
+	-----------------------------------
+	Darkne Section Responsive
+	-----------------------------------
+	*/
+	.darkne-slider-text p {
+	  letter-spacing: 1rem;
+	}
+  }
+  
+  @media (max-width: 1401px) {
+	/*_____ Font Size _____*/
+	:root {
+	  --size-10xl: 4rem;
+	  --size-6xl: 1.5rem;
+	  --size-4xl: 1.6rem;
+	}
+  
+	/* 
+	  -----------------------------------
+	  Darkkn Section Responsive
+	  -----------------------------------
+	  */
+	.swiper-btn {
+	  max-width: 20rem;
+	}
+  }
+  
+  @media (max-width: 1399px) {
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-center-text-title {
+	  margin-top: -5rem;
+	}
+  
+	.want-center-text-title p {
+	  font-size: 8rem;
+	  line-height: 1;
+	  letter-spacing: 2.5rem;
+	}
+  
+	.w-c-t-box-title-1::after,
+	.w-c-t-box-title-6::after,
+	.want-bottom-text-title .w-b-t-un::after {
+	  background-size: 5.5rem 4.6rem;
+	}
+  
+	.w-c-t-box-title-1::after {
+	  top: -96%;
+	  right: -13%;
+	}
+  
+	.w-c-t-box-title-6::after {
+	  top: -40%;
+	  right: -13%;
+	}
+  
+	.want-bottom-text-title .w-b-t-un::after {
+	  right: -37%;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Back to top Btn
+	  ----------------------------------
+	  */
+	#scroll-up-btn {
+	  width: 3.7rem;
+	  height: 3.7rem;
+	}
+  
+	#scroll-up-btn img {
+	  width: 1.8rem;
+	  height: 1.8rem;
+	}
+  }
+  
+  @media (max-width: 1299px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-11xl: 9rem;
+	  --size-5xl: 1.8rem;
+	}
+	/* 
+	  --------------------------------------
+	  Hedaer Section Responsive
+	  --------------------------------------
+	  */
+	.header-call .header-call-link {
+	  margin-right: 0rem;
+	}
+  
+	.header-call-text {
+	  display: none;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Hero Section Responsive
+	  --------------------------------------
+	  */
+	.hero-content-top-text .hero-content-sm-title {
+	  letter-spacing: 1.5rem;
+	}
+  
+	.hero-content-top-text {
+	  top: -5.7rem;
+	  right: -2rem;
+	}
+  
+	.hero-content-top-text img {
+	  width: 6rem;
+	}
+  }
+  
+  @media (max-width: 1199px) {
+	:root {
+	  /*_____ Font Size _____*/
+	  --size-11xl: 8rem;
+	  --size-7xl: 2.4rem;
+	  --size-5xl: 1.8rem;
+	  --size-3xl: 1.6rem;
+	}
+  
+	/* 
+	  --------------------------------------
+	  Reuseble Components
+	  --------------------------------------
+	  */
+	.btn-clip-path {
+	  max-width: 17.6rem;
+	  height: 5rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Header Section Responsive
+	  ----------------------------------
+	  */
+	.header .navBar {
+	  padding-right: 2.4rem;
+	}
+  
+	.navBar .logo {
+	  padding: 0 2rem 0 2.4rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Hero Section Responsive
+	  ----------------------------------
+	  */
+	.hero-section {
+	  padding: 22.7rem 0 10rem;
+	}
+  
+	.hero-content-top-text .hero-content-sm-title {
+	  letter-spacing: 1.4rem;
+	}
+  
+	.hero-content-top-text img {
+	  width: 2.5rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-wrapper {
+	  padding-left: 4rem;
+	  padding-right: 4rem;
+	}
+  
+	.w-c-t-box-title-1::after {
+	  top: -119%;
+	  right: -15%;
+	}
+  
+	.w-c-t-box-title-6::after {
+	  top: -57%;
+	  right: -15%;
+	}
+  
+	.want-bottom-text-title .w-b-t-un::after {
+	  right: -41%;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Gears Section Responsive
+	  ----------------------------------
+	  */
+	.gears-img .gears-time {
+	  top: 3%;
+	  right: 5%;
+	}
+  
+	.gears-img .gears-product {
+	  width: 13rem;
+	}
+  
+	.gears-btn .gears-wishlist-btn {
+	  width: 5.8rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Footer Section Responsive
+	  ----------------------------------
+	  */
+	.footer-menu .footer-menu-item:not(:first-child) {
+	  margin-left: 3rem;
+	}
+  
+	.footer-menu-wrap .footer-search {
+	  max-width: 25.6rem;
+	}
+  }
+  
+  @media (max-width: 1055px) {
+	/* 
+	  -----------------------------------
+	  Darkne Section Responsive
+	  -----------------------------------
+	  */
+	.darkne-slider-flex {
+	  -webkit-box-orient: vertical !important;
+	  -webkit-box-direction: normal !important;
+		  -ms-flex-direction: column !important;
+			  flex-direction: column !important;
+	}
+  
+	.darkne-slider-img {
+	  height: 50rem;
+	}
+  
+	.darkne-slider-text {
+	  margin-right: 0;
+	  margin-bottom: 3rem;
+	}
+  
+	.darkne-slider-text,
+	.swiper-btn {
+	  max-width: 47.1rem;
+	  height: auto;
+	}
+  
+	.swiper-btn .swiper-btn-text {
+	  margin-bottom: 2.8rem;
+	}
+  }
+  
+  @media (max-width: 1020px) {
+	:root {
+	  /*_____ Font Size _____*/
+	  --size-11xl: 7rem;
+	  --size-5xl: 1.6rem;
+	}
+  }
+  
+  @media (max-width: 991px) {
+	:root {
+	  /*____ Font Size_____*/
+	  --size-7xl: 2rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Header Section Responsive
+	  ----------------------------------
+	  */
+	.navBar .main-menu {
+	  position: relative;
+	  position: fixed;
+	  top: 0;
+	  left: -150%;
+	  padding: 3rem;
+	  background-color: var(--bg-9);
+	  width: 32rem;
+	  z-index: 9999;
+	  min-height: 100vh;
+	  overflow-x: hidden;
+	  overflow-y: auto;
+	  -webkit-transition: all 0.6s ease-in;
+	  -o-transition: all 0.6s ease-in;
+	  transition: all 0.6s ease-in;
+	  -ms-overflow-style: none; /* IE and Edge */
+	  scrollbar-width: none; /* Firefox */
+	}
+  
+	.navBar .main-menu::-webkit-scrollbar {
+	  display: none; /* for Chrome, Safari, and Opera */
+	}
+  
+	.navBar .open-menu {
+	  left: -3.8rem;
+	  -webkit-transition: all 0.6s ease-in;
+	  -o-transition: all 0.6s ease-in;
+	  transition: all 0.6s ease-in;
+	  top: -2.5rem;
+	  border: 0;
+	  border-radius: 0;
+	}
+  
+	.stick .open-menu {
+	  top: -1px;
+	}
+  
+	.main-menu .menu-item:not(:first-child) {
+	  margin-left: 0rem;
+	  margin-top: 1.5rem;
+	}
+  
+	.main-menu .menu-item .menu-link {
+	  color: var(--primary-color);
+	  padding: 0;
+	}
+  
+	.main-menu .menu-item .menu-link:hover {
+	  color: var(--secondary-color);
+	}
+  
+	.main-menu .menu-item .menu-link:hover::after,
+	.main-menu .menu-item .menu-link:hover::before,
+	.main-menu .menu-item:first-child .menu-link::after,
+	.main-menu .menu-item:first-child .menu-link::before,
+	.main-menu .menu-item .menu-link::after,
+	.main-menu .menu-item .menu-link::before {
+	  opacity: 0;
+	  visibility: hidden;
+	}
+  
+	.search-contact .header-search {
+	  margin-left: 0rem;
+	}
+  
+	.search-contact :is(.header-btn, .menu-open-btn) {
+	  margin-left: 2rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Hero Section Responsive
+	  ----------------------------------
+	  */
+	.hero-section {
+	  padding: 17.7rem 0 10rem;
+	}
+  
+	.hero-wrapper .hero-content {
+	  width: 100%;
+	  margin-bottom: 6rem;
+	  padding-top: 5rem;
+	}
+
+	.hero-content h1 {
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  
+	.hero-wrapper .hero-img {
+	  width: 100%;
+	}
+  
+	.hero-img img {
+	  margin-right: 0rem;
+	  max-width: 40rem;
+	}
+  
+	.hero-content-top-text {
+	  top: -4.5rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Team Section Responsive
+	  ----------------------------------
+	  */
+	.team-section {
+	  padding-bottom: 8.9rem;
+	}
+  
+	.counter-row .counter-box {
+	  width: 33%;
+	  -webkit-box-flex: 0;
+		  -ms-flex: 0 33%;
+			  flex: 0 33%;
+	  margin-bottom: 4rem;
+	}
+  
+	.counter-box .counter-mb {
+	  margin-bottom: 5.9rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-wrapper {
+	  padding-left: 4rem;
+	  padding-right: 4rem;
+	}
+  
+	.padding-l-90 {
+	  padding-left: 0;
+	}
+  
+	.want-center-text-title {
+	  margin: 5rem 0 5rem;
+	}
+  
+	.want-center-text-title p {
+	  font-size: 6rem;
+	  letter-spacing: 2.5rem;
+	}
+  
+	.want-center-text-title p:nth-child(2) {
+	  margin-top: 2rem;
+	  margin-left: 0rem;
+	}
+  
+	.w-t-l-i-1,
+	.w-t-l-i-1 img {
+	  max-width: 60rem;
+	  margin: auto;
+	}
+  
+	.w-t-l-i-2,
+	.w-t-l-i-2 img {
+	  max-width: 40rem;
+	  margin: auto;
+	}
+  
+	.w-c-t-box-title-1::after {
+	  top: -158%;
+	  right: -17%;
+	}
+  
+	.w-c-t-box-title-6::after {
+	  top: -86%;
+	  right: -17%;
+	}
+  
+	.want-bottom-text-title .w-b-t-un::after {
+	  right: -48%;
+	  top: -28%;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Footer Section Responsive
+	  ----------------------------------
+	  */
+	.footer-menu .footer-menu-item:not(:first-child) {
+	  margin-left: 2rem;
+	}
+  
+	.footer-menu-wrap .footer-search {
+	  max-width: 25.6rem;
+	}
+  }
+  
+  @media (max-width: 767px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-9xl: 4rem;
+	}
+  
+	/* 
+	------------------------------
+	Reuseble Css Classes
+   -------------------------------
+	*/
+	.section-y-space {
+	  padding: 10rem 0;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.hero-wrapper {
+	  padding: 0 2rem;
+	}
+  
+	.hero-wrapper .hero-slider {
+	  padding: 0rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Team Section Responsive
+	  ----------------------------------
+	  */
+	.team-section {
+	  padding-bottom: 6rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-bottom-wrap {
+	  margin-top: 7rem;
+	}
+  
+	.w-c-t-box-title-1::after,
+	.w-c-t-box-title-6::after,
+	.want-bottom-text-title .w-b-t-un::after {
+	  display: none;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Video Section Responsive
+	  ----------------------------------
+	  */
+	.video-img {
+	  height: 30rem;
+	  -o-object-fit: cover;
+		 object-fit: cover;
+	}
+  
+	.video-play-btn {
+	  width: 8rem;
+	  height: 8rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Footer Section Responsive
+	  ----------------------------------
+	  */
+	.footer-menu .footer-menu-item:not(:first-child) {
+	  margin-left: 0rem;
+	}
+  
+	.help-page-list .help-page-item:not(:last-child) {
+	  margin-right: 0rem;
+	}
+  
+	.footer-menu .footer-menu-item,
+	.help-page-list .help-page-item {
+	  margin: 0 1.5rem !important;
+	}
+  
+	.footer-menu-wrap .footer-search {
+	  max-width: 100%;
+	  margin-left: 0;
+	}
+  }
+  
+  @media (max-width: 699px) {
+	/* 
+	  ----------------------------------
+	  Darkne Section Responsive
+	  ----------------------------------
+	  */
+	.darkne-slider {
+	  margin: 0 1.5rem;
+	}
+  }
+  
+  @media (max-width: 575px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-9xl: 3rem;
+	  --size-8xl: 3rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Countdown Section Responsive
+	  ----------------------------------
+	  */
+	.header {
+	  top: 1.5rem;
+	  padding: 0 1.5rem;
+	}
+  
+	.navBar .logo {
+	  height: 6.3rem;
+	}
+  
+	.navBar .logo img {
+	  max-width: 10rem;
+	}
+  
+	.navBar .open-menu {
+	  top: -1.5rem;
+	}
+  
+	.stick .open-menu {
+	  top: -1.6rem;
+	}
+  
+	.search-overlay-content .search-field {
+	  width: 80%;
+	}
+  
+	.search-overlay-content .search-submit-btn {
+	  width: 20%;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Hero Section Responsive
+	  ----------------------------------
+	  */
+	.hero-section {
+	  padding: 15rem 0 6rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Countdown Section Responsive
+	  ----------------------------------
+	  */
+	.countdown-container {
+	  margin-bottom: 5rem;
+	}
+  
+	.countdown-bottom-img p {
+	  margin-top: 5rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Team Section Responsive
+	  ----------------------------------
+	  */
+	.team-row {
+	  margin-bottom: 6rem;
+	}
+  
+	.counter-row .counter-box {
+	  width: 50%;
+	  -webkit-box-flex: 0;
+		  -ms-flex: 0 50%;
+			  flex: 0 50%;
+	  margin-bottom: 4rem;
+	}
+  
+	.counter-box .counter-mb {
+	  margin-bottom: 2rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Darkne Section Responsive
+	  ----------------------------------
+	  */
+	.darkne-slider-img {
+	  height: 40rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-wrapper {
+	  padding-left: 1.5rem;
+	  padding-right: 1.5rem;
+	}
+  
+	.want-center-text-title p {
+	  font-size: 5rem;
+	  letter-spacing: 1rem;
+	}
+  }
+  
+  @media (max-width: 425px) {
+	:root {
+	  /*____ Font Size ____*/
+	  --size-11xl: 5rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Hero Section Responsive
+	  ----------------------------------
+	  */
+	.hero-content-top-text .hero-content-sm-title {
+	  letter-spacing: 1rem;
+	}
+  
+	.hero-content-top-text {
+	  right: -1.3rem;
+	}
+  
+	.hero-img img {
+	  max-width: 28rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Want Section Responsive
+	  ----------------------------------
+	  */
+	.want-bottom-img-col {
+	  width: 100%;
+	}
+  }
+  
+  @media (max-width: 400px) {
+	:root {
+	  /* ---- Font-Size ---- */
+	  --size-10xl: 3rem;
+	}
+	/* 
+	  ----------------------------------
+	  Team Section Responsive
+	  ----------------------------------
+	  */
+	.counter-row .counter-box {
+	  width: 100%;
+	  -webkit-box-flex: 0;
+		  -ms-flex: 0 100%;
+			  flex: 0 100%;
+	}
+  
+	.counter-box .counter-mb {
+	  margin-bottom: 1.5rem;
+	}
+  
+	/* 
+	  ----------------------------------
+	  Darkne Section Responsive
+	  ----------------------------------
+	  */
+	.darkne-slider-img {
+	  height: 28rem;
+	}
+  }

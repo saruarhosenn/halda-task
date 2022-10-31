@@ -1,0 +1,23 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 41 43" width="41" height="43">
+	<title>Home 4</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m-40-19h1832c2.76 0 5 2.24 5 5v75c0 2.76-2.24 5-5 5h-1832c-2.76 0-5-2.24-5-5v-75c0-2.76 2.24-5 5-5z"/>
+		</clipPath>
+		<image  width="41" height="43" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAArCAMAAADSdlHPAAAAAXNSR0IB2cksfwAAAORQTFRF/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UD/4UDYVY3YgAAAEx0Uk5T1Oro2yYAtOzGBh7N0e7/9SrK3Qch5unwKMXYIOHl01hoCrbEEEbz+FXWyNAD0gXPEtwZef6CKzCUnb64wr32y98i58ef3iSu5LwdrBgL6G4AAADdSURBVHic7dXbVoJQFIXhRTRDRVFEMc0OZmliQgftoFY7jcJ8//cJGoy973RdM5h3/1jf7QYi7SCdph8CR0ZaRqGIkmnIY5kqlly1Btiy6g4aTXXUyFXROgbasjoOTrrqeJpBWWFKl0ymPKNzpryg3iVL9q8I1wOGHN6AAJMhR8VEegw5vk2kzZATP5e53C8LDBkglnf3DNl9iOXjlCGnM9CT+vLtenHGM71YLGm90pwpPVow5TKD8k3Fe/w/+pAlHHyu1HFNX0JPFwbfwE8khAjjEhsfv+uk/hdt/wCkC3O1hHCgWwAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+	</style>
+	<g id="Slider">
+		<g id="1 copy">
+			<g id="Group 180">
+				<g clip-path="url(#cp1)">
+				</g>
+				<g id="Logo">
+					<use id="Layer 13" href="#img1" x="0" y="0"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
